@@ -16,6 +16,7 @@ const Navbar = () => {
       <div className="hidden md:flex gap-10 text-white text-sm uppercase tracking-[3px]">
         <a href="#home" className="hover:text-gray-300 transition">Home</a>
         <a href="#about" className="hover:text-gray-300 transition">About</a>
+         <a href="#tech" className="hover:text-gray-300 transition">Tech Stack</a>
         <a href="#projects" className="hover:text-gray-300 transition">Projects</a>
         <a href="#contact" className="hover:text-gray-300 transition">Contact</a>
       </div>
@@ -53,6 +54,7 @@ const Navbar = () => {
           
           <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+          <a href="#tech" onClick={() => setMenuOpen(false)}>Tech Stack</a>
           <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
 

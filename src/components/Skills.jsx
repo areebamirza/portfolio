@@ -49,7 +49,10 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="relative isolate overflow-hidden py-20 sm:py-24 md:py-28 px-4 sm:px-6 md:px-12">
+    <section
+        id="tech"
+        className="relative isolate overflow-hidden py-20 sm:py-24 md:py-28 px-4 sm:px-6 md:px-12"
+    >
 
       {/* BACKGROUND IMAGE */}
       <img
