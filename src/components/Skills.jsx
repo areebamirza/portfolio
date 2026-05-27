@@ -87,8 +87,8 @@ const Skills = () => {
 
                 flex flex-col items-center justify-center text-center
 
-                w-[90px] sm:w-[120px] md:w-36
-                h-[90px] sm:h-24 md:h-28
+                w-22.5 sm:w-30 md:w-36
+                h-22.5 sm:h-24 md:h-28
 
                 rounded-2xl
                 px-2 sm:px-3 py-2 sm:py-4
